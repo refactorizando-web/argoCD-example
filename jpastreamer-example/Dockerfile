@@ -1,6 +1,6 @@
 FROM adoptopenjdk/openjdk11:alpine-jre
 
-ARG JAR_FILE=target/jpastreamer-example-0.0.1-SNAPSHOT.jar
+ARG JAR_FILE=target/jpastreamer-example-1.0.0.jar
 WORKDIR /opt/app
 COPY ${JAR_FILE} app.jar
 
